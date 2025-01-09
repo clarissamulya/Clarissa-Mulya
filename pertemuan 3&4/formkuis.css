@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    transition: transform 0.3s; /* Animasi saat tabel diperbesar */
+}
+
+thead th {
+    background-color: #fee5f7; /* Warna latar belakang untuk header tabel */
+    color: rgb(0, 0, 0); /* Warna teks untuk header tabel */
+}
+
+tbody td {
+    border-bottom: 1px solid #fee5f7; /* Garis pemisah antara baris */
+}
+
+/* Efek hover pada tabel */
+table:hover {
+    transform: scale(1.05); /* Membesarkan tabel saat hover */
+}
+
+/* Tambahkan gaya untuk tombol */
+button {
+    cursor: pointer; /* Menunjukkan bahwa tombol dapat diklik */
+    transition: background-color 0.3s, transform 0.3s; /* Animasi untuk perubahan warna dan ukuran */
+}
+
+/* Efek hover pada tombol */
+button:hover {
+    opacity: 0.8; /* Membuat tombol sedikit transparan saat hover */
+    transform: scale(1.1); /* Membesarkan tombol saat hover */
+}
+
+/* Efek hover pada baris tabel */
+tbody tr:hover {
+    background-color: #fee5f7; /* Warna hijau toska saat hover */
+    color: rgb(226, 24, 135); /* Ubah warna teks menjadi putih saat hover */
+}
+
+/* Efek hover pada judul */
+h1:hover {
+    color: #4a52f0; /* Ubah warna judul menjadi biru saat hover */
+    transition: color 0.3s; /* Animasi untuk perubahan warna */
+}
